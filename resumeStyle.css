@@ -1,0 +1,49 @@
+span {
+    font-weight: bold;
+}
+
+hr {
+    position:absolute;
+    left:10px;
+    width: 75%;
+    bottom:590px;
+}
+
+pre {
+    position:absolute;
+    left:-160px;
+    bottom: 420px;
+}
+
+img {
+    transform: rotate(353deg);
+    position: relative;
+    left:770px;
+    bottom:80px;
+    clear:both;
+}
+
+table {
+    position: relative;
+    bottom: 120px;
+}
+
+em {
+    color: grey;
+}
+
+.Categorize {
+    border-right: 1px solid grey;
+    vertical-align:top;
+}
+
+.Content {
+    position: relative;
+    left: 20px;
+}
+
+ul {
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
