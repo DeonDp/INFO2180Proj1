@@ -11,14 +11,10 @@ hr {
     width: 75%;
 }
 
-pre {
-    position: relative;
-    left: -10em;
-    bottom: 1em;
-}
-
 p {
-    margin: auto 5em;
+    position: relative;
+    left: 2em;
+    bottom: 1em;
 }
 
 img {
@@ -33,7 +29,11 @@ em {
 
 div {
     display: block;
-    margin: -1em 0em 1em 10em;
+    margin: -2em 0em 1em 12em;
     padding-left: 1em;
     border-left: 0.1em solid grey;
+}
+
+.category {
+    margin: auto 5em;
 }
