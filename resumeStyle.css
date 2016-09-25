@@ -4,28 +4,25 @@ span {
 
 hr {
     position:absolute;
-    left:10px;
+    left:0.625em;
     width: 75%;
-    bottom:590px;
+    bottom:36.875em;
 }
 
 pre {
-    position:absolute;
-    left:-160px;
-    bottom: 420px;
+    position: relative;
+    left: -13em;
+    bottom: 1em;
 }
 
 img {
+    float: right;
+    margin: -5em 20em 0em 0em;
     transform: rotate(353deg);
-    position: relative;
-    left:770px;
-    bottom:80px;
-    clear:both;
 }
 
 table {
-    position: relative;
-    bottom: 120px;
+    clear :both;
 }
 
 em {
