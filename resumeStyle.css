@@ -7,19 +7,26 @@ h1 {
 }
 
 hr {
-    margin: 0.125em 0 0 0em;
-    width: 75%;
+    margin: 0.125em 0 0 0;
+    width: 80%;
+}
+
+u {
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: grey;
 }
 
 p {
     position: relative;
     left: 2em;
     bottom: 1em;
+    clear: right;
 }
 
 img {
     float: right;
-    margin: -4em 20em 0em 0em;
+    margin: -9em 20em 0em 0em;
     transform: rotate(353deg);
 }
 
@@ -29,11 +36,22 @@ em {
 
 div {
     display: block;
-    margin: -2em 0em 1em 12em;
+    margin: -2em 0em 2em 10em;
     padding-left: 1em;
     border-left: 0.1em solid grey;
 }
 
 .category {
-    margin: auto 5em;
+    clear: right;
+    margin: auto 2em;
+}
+
+.head {
+    font-size: 0.5em;
+    margin: 0 0 0.125em 0;
+}
+
+#firstspan {
+    display: block;
+    margin: 1em  0 -1em 0;
 }
