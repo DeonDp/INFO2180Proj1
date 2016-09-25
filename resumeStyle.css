@@ -2,45 +2,40 @@ span {
     font-weight: bold;
 }
 
+h1 {
+    margin: 1em 0 0 1em;
+}
+
 hr {
     position:absolute;
-    left:0.625em;
+    left:2.5em;
     width: 75%;
-    bottom:36.875em;
+    bottom:36.25em;
 }
 
 pre {
     position: relative;
-    left: -13em;
+    left: -10em;
     bottom: 1em;
+}
+
+p {
+    margin: auto 5em;
 }
 
 img {
     float: right;
-    margin: -5em 20em 0em 0em;
+    margin: -4em 20em 0em 0em;
     transform: rotate(353deg);
-}
-
-table {
-    clear :both;
 }
 
 em {
     color: grey;
 }
 
-.Categorize {
-    border-right: 1px solid grey;
-    vertical-align:top;
-}
-
-.Content {
-    position: relative;
-    left: 20px;
-}
-
-ul {
-    position: relative;
-    right: 20px;
-    bottom: 10px;
+div {
+    display: block;
+    margin: -1em 0em 1em 10em;
+    padding-left: 1em;
+    border-left: 0.1em solid grey;
 }
